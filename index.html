@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Game Test 2</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/hud.css">
+
+    <script src="//d3js.org/d3.v3.min.js"></script>
+    <script src="js/path-properties.min.js"></script>
+
+    <script src="js/extras.js"></script>
+    <script src="js/gamecube.js"></script>
+    <script src="js/index2.js"></script>
+    <script src="js/cube.js"></script>
+    <script src="js/fpsMeterWorker.js"></script>
+    <script src="js/camera.js"></script>
+    <script src="js/ground.js"></script>
+    <script src="js/healthbar.js"></script>
+    <script src="js/devInfo.js"></script>
+</head>
+
+<body>
+    <canvas id="canvas"></canvas>
+    <canvas id="backgroundCanvas"></canvas>
+    <div class="Hud">
+        <div id="HealthBar">
+            <div id="HealthBarContent" style="width: 100%;"></div>
+        </div>
+        <div class="devInfo">
+            <span id="FPS" class="devInfoSpan">FPS: null</span>
+            <canvas id="FPSCanvas"></canvas>
+
+            <span id="MapWidth" class="devInfoSpan">Map W: null</span>
+
+            <span id="PlayerX" class="devInfoSpan">Player X: null</span>
+            <span id="PlayerY" class="devInfoSpan">Player Y: null</span>
+            <span id="PlayerRealX" class="devInfoSpan">Real Player X: null</span>
+            <span id="PlayerRealY" class="devInfoSpan">Real Player Y: null</span>
+
+            <span id="CameraX" class="devInfoSpan">Camera X: null</span>
+            <span id="CameraY" class="devInfoSpan">Camera Y: null</span>
+
+            <span id="PlayerColliding" class="devInfoSpan">Player Colliding: null</span>
+
+            <span id="MappedCord1" class="devInfoSpan">First Mapped: null</span>
+            <span id="MappedCord2" class="devInfoSpan">First Mapped: null</span>
+        </div>
+    </div>
+</body>
+
+</html>
